@@ -1,0 +1,53 @@
+/* --- Single Post --- */
+.heps1 {
+    border-bottom: 1px solid #cecece;
+    margin: 0;
+    padding: 10px 0;
+}
+.heps1:first-child {
+    padding: 0 0 10px;
+}
+.heps1:last-child {
+    border-bottom: none;
+}
+
+/* --- Single Post Thumbnail --- */
+.heps1 .hep-post-thumbnail {
+    float: left;
+    height: 75px;
+    width: 75px;
+}
+.heps1.rtl .hep-post-thumbnail {
+    float: right;
+}
+
+/* --- Single Post Content --- */
+.heps1 .hep-post-description {
+    float: right;
+    width: calc(100% - 90px);
+}
+.heps1.rtl .hep-post-description {
+    float: left;
+}
+
+/* --- Single Post Date --- */
+.heps1 .hep-post-date {
+    margin-top: 10px; 
+}
+
+@media screen and (max-width: 500px) {
+    .heps1 {
+        border-bottom: 0 none;
+        padding: 10px 0 20px;
+    }
+
+    .heps1 .hep-post-thumbnail,
+    .heps1 .hep-post-description {
+        height: auto;
+        width: 100%;
+    }
+
+    .heps1 .hep-post-description {
+        margin-top: 15px;
+    }
+}

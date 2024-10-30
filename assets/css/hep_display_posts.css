@@ -1,0 +1,129 @@
+/* ----------------------------
+   General Widget Styles
+---------------------------- */
+.hep-textwidget {
+    clear: both;
+    margin-bottom: 35px;
+    width: 100%;
+}
+
+.hep-latest-posts * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.hep-widget-title {
+    margin-bottom: 20px;
+}
+
+.hep-latest-posts h1 { 
+    font-size: 50px; 
+}
+
+.hep-latest-posts h2 { 
+    font-size: 37px; 
+}
+
+.hep-latest-posts h3 { 
+    font-size: 28px; 
+}
+
+.hep-latest-posts h4 { 
+    font-size: 21px; 
+}
+
+.hep-latest-posts h5 { 
+    font-size: 16px; 
+}
+
+.hep-latest-posts h6 { 
+    font-size: 13px; 
+}
+
+.hep-latest-posts h3, 
+.hep-latest-posts h3 a { 
+    line-height: 35px; 
+}
+
+.hep-latest-posts h4, 
+.hep-latest-posts h4 a { 
+    line-height: 28px; 
+}
+
+.hep-latest-posts h5, 
+.hep-latest-posts h5 a { 
+    line-height: 23px; 
+}
+
+.hep-latest-posts p { 
+    font-size: 16px; 
+}
+
+.hep-latest-posts small { 
+    font-size: 12px; 
+}
+
+.hep-latest-posts a { 
+    text-decoration: none; 
+}
+
+.hep-latest-posts img { 
+    width: 100%; 
+}
+
+/* ----------------------------
+   Single Post Styles
+---------------------------- */
+.hep-single-post {
+    float: left;
+    margin: 30px 0 0;
+    width: 100%;
+}
+
+.hep-single-post.rtl {
+    text-align: right;
+}
+
+.hep-single-post:first-child { 
+    margin: 0; 
+}
+
+.hep-single-post a {
+    color: #000;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+/* --- Post Thumbnail Image --- */
+.hep-post-thumbnail { 
+    display: block; 
+}
+
+.hep-post-thumbnail > img { 
+    height: 100%; 
+}
+
+.hep-post-thumbnail-bg {
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+/* --- Post Date --- */
+.hep-post-date, 
+.hep-post-date a {
+    font-size: 12px;
+}
+
+/* ----------------------------
+   Media Queries
+---------------------------- */
+@media screen and (max-width: 800px) {
+
+    .hep-post-thumbnail {
+        width: 100%;
+    }
+}
